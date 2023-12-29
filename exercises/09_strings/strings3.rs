@@ -3,13 +3,12 @@
 // Execute `rustlings hint strings3` or use the `hint` watch subcommand for a
 // hint.
 
-
 fn trim_me(input: &str) -> String {
     input.trim().to_string()
 }
 
 fn compose_me(input: &str) -> String {
-    input.to_owned() + " world!"
+    input.to_string() + " world!"
 }
 
 fn replace_me(input: &str) -> String {
